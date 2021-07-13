@@ -23,6 +23,7 @@ footer{
     font-size: 2rem;
     justify-content: center;
     text-align: center;
+    padding-top: 20px;
 }
 .links a{
     user-select: none;
