@@ -23,10 +23,23 @@ footer{
     font-size: 2rem;
     justify-content: center;
     text-align: center;
+}
+.links a{
+    user-select: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: all 1s;
+    align-items: center;
+}
+.links a:hover{
+    color: red;
+}
 
-
-
-
+.links > ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
 }
 .capa{
     font-size: 2rem;
